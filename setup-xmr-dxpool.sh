@@ -30,4 +30,4 @@ make -j$(nproc)
 
 echo "XMRig installation complete."
 echo "run the miner using the example below"
-echo "./ xmrig -o xmr.ss.dxpool.com:5555 -u <USERNAME>.<WORKER> -p -x -k --coin monero -a rx/0"
+echo "./xmrig -o xmr.ss.dxpool.com:5555 -u <USERNAME>.<WORKER> -p x -k --coin monero -a rx/0"
